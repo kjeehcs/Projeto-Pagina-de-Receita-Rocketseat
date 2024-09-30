@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+
+
+:root {
+    font-family: "Alice", serif;
+    line-height: 150%;
+    color: #573A37;
+
+}
+body {
+    background-image: url(Assets/bg-image.jpg);
+    Background-size: cover;
+}
+
+#page {
+    width: 800px;
+    padding: 24px;
+    background-color: #F0E8C2;
+    margin: 48px auto 28px;
+    box-sizing: border-box;
+    border-radius: 24px;
+}
+
+img {
+    border-radius: 16px;
+}
+
+main {
+    padding: 24px;
+}
+
+section + section {
+    margin-top: 24px;
+}
+
+h1 {
+    line-height: 140%;
+    font-size: 40px;
+    
+}
+h2 {
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+
+h1, h2 {
+    color: #291B1A;
+    margin-bottom: 04px;
+}
+
+#about p + p {
+    margin-top: 12px;
+}
+
+ul {
+    padding-left: 24px;
+}
+footer {
+    padding-bottom: 48px;
+    color: #F0E8C2;
+    text-align:  center;
+}
+
+footer img {
+    vertical-align: middle;
+}
+
